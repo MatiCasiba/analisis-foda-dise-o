@@ -116,3 +116,5 @@ Nuevamente coloqué otro elemenmto de anclaje en el archivo index.html, estos do
 (<a href="https://asana.com/es/resources/swot-analysis">Fortalezas y Debilidades</a>) y externas (<a href="https://asana.com/es/resources/swot-analysis">Oportunidades y Amenazas</a>)
 ```
 * De la manera donde se encuentran ubicados, logra solamente generarle un hipervinculo a las palabras fortaleza, debilidades, oportunidades y amenazas.
+### Añadiendo target
+A estos hipervinculos les coloqué un target="_blank", con el propósito de que se abra otra pestaña al momento de visitar la página cuando seleccionamos el hipervinculo.
