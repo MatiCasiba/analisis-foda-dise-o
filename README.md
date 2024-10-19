@@ -109,3 +109,10 @@ a:hover{ # cuando me paro con el mouse sobre el texto
     text-decoration: underline; # se genera una línea debajo
 }
 ```
+
+## Se agregó otro elemento de anclaje
+Nuevamente coloqué otro elemenmto de anclaje en el archivo index.html, estos dos anclajes contendrá la misma página a visitar:
+```sh
+(<a href="https://asana.com/es/resources/swot-analysis">Fortalezas y Debilidades</a>) y externas (<a href="https://asana.com/es/resources/swot-analysis">Oportunidades y Amenazas</a>)
+```
+* De la manera donde se encuentran ubicados, logra solamente generarle un hipervinculo a las palabras fortaleza, debilidades, oportunidades y amenazas.
