@@ -10,6 +10,8 @@ h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
     text-align: center;
+    color: white;
+    background-color: black;
 }
 h2{
     font-size: 40px;
@@ -25,7 +27,24 @@ p{
     font-size: 20px;
 }
 
+h2, h3, h4{
+    color: rgb(136, 24, 24);
+}
+
+em{
+    color: rgb(186, 3, 3);
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
 .imagen{
     width: 400px;
     height: auto;
 }
+

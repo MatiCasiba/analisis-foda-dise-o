@@ -75,3 +75,37 @@ p{
 }
 ```
 
+## Dándole color a los elementos que contiene texto
+Al momento de darle color a los elementos h2, h3 y h4, lo haré en css de la siguiente manera:
+```sh
+h2, h3, h4{
+    color: rgb(136, 24, 24); # creo un color similar al bordó
+}
+```
+* Escribiendo de esta manera, logro darle el mismo color a los 3 elementos, de esta manera me ahorro de estar escribiendo el color en cáda uno. 
+
+Para el elemento h1 será distinto, ya que trabajaré con color blanco su título y tendrá un fondo oscuro:
+```sh
+h1{
+    color: white;
+    background-color: black;
+}
+```
+Tambien la agregué un color para lo que contenga elemento em:
+```sh
+em{
+    color: rgb(186, 3, 3);
+}
+```
+
+### Dándo color y decoración en elemento de anclaje
+Al elemento a (de anclaje), le estaré dando decoración al momento de que se pare sobre el texto y cuando no:
+```sh
+a{
+    color: blue;
+    text-decoration: none; # no tendrá linea
+}
+a:hover{ # cuando me paro con el mouse sobre el texto
+    text-decoration: underline; # se genera una línea debajo
+}
+```
