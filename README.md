@@ -38,3 +38,40 @@ La imágen que agrego estará identada a un elemento de anclaje, con la finalida
 <a href="https://assets.asana.biz/transform/485b5890-ad68-4914-bace-de38f4d2a650/inline-project-management-SWOT-analysis-4-es-2x?io=transform:fill,width:1680&format=webp" target="_blank"><img class="imagen" src="public/images/ejemplos-analisis-foda.webp" alt="imágen ejemplos de FODA"></a>
 ```
 
+## Dandole diseño al texto
+Al momento de darle diseño al texto, me traeré (de google fonts) una fuente, este se lo voy a aplicar a todo el texto que se encuentre dentro de mi elemento body, menos al elemento h1:
+
+```sh
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px; # Tamaño de letra para el título
+    text-align: center; # Centro el título
+}
+```
+* Cómo se ve, en h1 le voy a declarar una fuente segura, la función de este diseño es lograr que no herede la fuente que importé de google fonts. También le daré al título un tamaño más grande que el de los demás.
+
+Entonces ya declaré la fuente para los demás elementos, lo que me queda solamente es cambiar su tamaño en cáda uno:
+```sh
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 35px;
+}
+h4{
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+}
+```
+
