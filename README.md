@@ -1,6 +1,6 @@
-## Nombre: Matias Casiba 
-## Link Github Repo:
-## Link Netlify: 
+* Nombre: Matias Casiba 
+* Link Github Repo: https://github.com/MatiCasiba/analisis-foda-dise-o
+* Link Netlify: 
 
 # Analisis FODA
 
