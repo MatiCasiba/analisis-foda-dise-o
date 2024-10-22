@@ -122,3 +122,12 @@ Nuevamente coloqué otro elemenmto de anclaje en el archivo index.html, estos do
 * De la manera donde se encuentran ubicados, logra solamente generarle un hipervinculo a las palabras fortaleza, debilidades, oportunidades y amenazas.
 ### Añadiendo target
 A estos hipervinculos les coloqué un target="_blank", con el propósito de que se abra otra pestaña al momento de visitar la página cuando seleccionamos el hipervinculo.
+
+## Actualización de la página
+Al momento de subir el proyecto a netlify, no tomaba algunos diseños como el título con otra fuente y su background-color en negro, también no se achicaba la segunda imagen añadida. La solución que le encontre a esto, fue invcocando style.css en el index.html con lo siguiente:
+```sh
+<head>
+    <link rel="stylesheet" href="style.css"> # llamo al archivo de css
+</head>
+```
+De esta manerá logre en netlify ver la página con el diseño que armé.
